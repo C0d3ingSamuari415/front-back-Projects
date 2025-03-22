@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles\full-week.css">
+    <link rel="stylesheet" href="styles\daily-challenge.css">
+    <link rel="stylesheet" href="styles\shared.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <title>My Daily Challenge</title>
+</head>
+<body>
+    <img src="images\challenges-trophy.jpg" alt="yellow tropy with orange background">
+
+    <h1>My Daily Challenges</h1>
+
+    <ol>
+        <li>Learn about the basic of web development - specifically HTML & CSS.</li>
+        <li>I'll achieve this goal by diving into <a href="https://www.google.com/"> more learning resources</a>.</li>
+        <li>Explore the <a href="full-week.html">full week!</a> </li>
+    </ol>
+      
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Upcoming Challenges</title>
+    
+    <link rel="stylesheet" href="styles\shared.css">
+    <link rel="stylesheet" href="styles\daily-challenge.css">
+    <link rel="stylesheet" href="styles\full-week.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Main Goals for Challenge</h1>
+
+    <a href="index.html">View Todays Challenges</a>
+
+    <p>Goal 1 is to make sure previous HTML & CSS knowledge obtain is still good</p>
+    <p>Goal 2 is to enhance my current HTML & CSS knowledge</p>
+    <p>Goal 3 is to gain proficiency in Javascript and PHP </p>
+
+    
+
+    <footer></footer>
+</body>
+
+body {
+    text-align: center;
+    background-color: rgb(233, 215, 207);
+}
+
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 48px;
+    color: rgb(71, 62, 62);
+    margin: 12px 0;
+}
+
+ol li{
+    list-style: none;
+    background-color: rgb(223, 135, 124);
+    border-radius: 6px;
+    margin: 36px auto 0 auto;
+    width: 500px;
+    padding: 16;
+    
+}
+
+a {
+    /* background-color: whitesmoke; */
+    text-decoration: none;
+    color: red;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 5px 48;
+    border: 1px solid black;
+}
+
+a:hover {
+    background-color: black;
+    text-decoration: none;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(83, 75, 75);
+
+}
+
+body {
+    margin: 50px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    
+}
+
+#todays-challenge {
+    color: rgb(228, 56, 13);
+    font-weight: bold;
+    font-size: 40px;
+}
